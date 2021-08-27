@@ -4,37 +4,34 @@
 ##########################################
 # Datatypes (KEYWORD1)
 ##########################################
-
-  Keybord    KEYWORD1
+Keybord	KEYWORD1	Keybord
 
 ##########################################
 #  Methods and Functions (KEYWORD2)
 ##########################################
-
-  set_xy    KEYWORD2
-  set_wh    KEYWORD2
-  set_key    KEYWORD2
-  get_key    KEYWORD2
-  get_char    KEYWORD2
-  set_cur    KEYWORD2
-  get_cur    KEYWORD2
-  set_flag    KEYWORD2
-  get_flag    KEYWORD2
-  draw    KEYWORD2
-  move_cur    KEYWORD2
-  back_space    KEYWORD2
-  tx_box    KEYWORD2
-  text_input_5waySwitch    KEYWORD2
-  draw_keybord    KEYWORD2
+set_xy	KEYWORD2
+set_wh	KEYWORD2
+set_key	KEYWORD2
+get_key	KEYWORD2
+get_char	KEYWORD2
+set_cur	KEYWORD2
+get_cur	KEYWORD2
+set_flag	KEYWORD2
+get_flag	KEYWORD2
+draw	KEYWORD2
+move_cur	KEYWORD2
+back_space	KEYWORD2
+tx_box	KEYWORD2
+text_input_5waySwitch	KEYWORD2
+draw_keybord	KEYWORD2
 
 ##########################################
 #  Constants (LITERAL1)
 ##########################################
-
-  KEY_MAX    LITERAL1
-  KEY_C    LITERAL1
-  mainKeyColor    LITERAL1
-  spaceKeyColor    LITERAL1
-  otherKeyColor    LITERAL1
-  curentKeyColor    LITERAL1
-  MAX_TEXT    LITERAL1
+KEY_MAX	LITERAL1
+KEY_C	LITERAL1
+mainKeyColor	LITERAL1
+spaceKeyColor	LITERAL1
+otherKeyColor	LITERAL1
+curentKeyColor	LITERAL1
+MAX_TEXT	LITERAL1
