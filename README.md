@@ -1,4 +1,4 @@
-# Wio-Terminal-Keybord
+# Wio-Terminal-Keybord ![](https://img.shields.io/github/downloads/Field-Black/Wio-Terminal-Keybord/total) ![version](https://img.shields.io/github/v/release/Field-Black/Wio-Terminal-Keybord) ![licence](https://img.shields.io/github/license/Field-Black/Wio-Terminal-Keybord) 
 [Wio-Terminal-Keybord](https://github.com/Field-Black/Wio-Terminal-Keybord) is a library written in C++ that creates a screen keyboard on Wio Terminal.
 If you download this repository, you can install it as `Free_Keybord.h` in the Arduino IDE.
  
@@ -24,9 +24,9 @@ It is possible to set the character corresponding to the key number below.
 If you have read through the [Wio Terminal WiKi](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/), there are no specific libraries you need. The following is a list of required libraries.
  
  - Boards Manager
-   - Seed SAMD Boards 1.8.2
+   - [Seed SAMD Boards](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/) 1.8.2
  - Libraries
-   - [Seeed_Arduino_LCD](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/)
+   - [Seeed_Arduino_LCD](https://github.com/Seeed-Studio/Seeed_Arduino_LCD)
  
 # Installation
  
