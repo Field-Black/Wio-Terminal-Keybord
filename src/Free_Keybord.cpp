@@ -342,6 +342,8 @@ String text_input_5waySwitch(Keybord mykey,int xi,int yi){
   while (text_i.length() <= MAX_TEXT){
     // keyboard operation
     while (1) {
+      mykey.draw();
+      delay(200);
       if (digitalRead(WIO_5S_UP) == LOW) {
         mykey.move_cur(1);
       } else if (digitalRead(WIO_5S_DOWN) == LOW) {
@@ -353,8 +355,6 @@ String text_input_5waySwitch(Keybord mykey,int xi,int yi){
       } else if (digitalRead(WIO_5S_PRESS) == LOW) {
         break;
       }
-      mykey.draw();
-      delay(200);
     }
     String now_char = mykey.get_char();
     int now_flag = mykey.get_flag();

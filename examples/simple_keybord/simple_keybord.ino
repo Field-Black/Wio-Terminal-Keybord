@@ -2,7 +2,6 @@
   Created by Yuta Kurota, August 26, 2021.
   Released into the public domain.*/
 #include "TFT_eSPI.h"
-#include "Free_Fonts.h"
 #include "Free_Keybord.h"
 
 // LCD settings
