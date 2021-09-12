@@ -5,9 +5,6 @@
 ----This code will show you how to customize the keyboard to your liking.-------
 1: How to change the keyboard layout.
 2: How to change the size of the keyboard position.
-3: How to change the color of the keyboard.
-4：How to move the keys on the keyboard.
-5：How to change the function of special keys on the keyboard.
 --------------------------------------------------------------------------------
 */
 
@@ -126,21 +123,6 @@ void loop() {
     type += 1;
   }
   tft.setRotation(3);
-
-
-
-  
-  /*
-   In this example, 
-
-  --------------------------------------------------------------------------------
-  3: How to change the color of the keyboard.
-        
-     For details, refer to the URL below.
-     https://github.com/Field-Black/Wio-Terminal-Keybord
-  --------------------------------------------------------------------------------
-  */ 
-
 }
 
 // Function to display the input screen
